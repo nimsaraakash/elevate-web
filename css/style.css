@@ -36,6 +36,7 @@ p {
     background: linear-gradient(0deg, rgba(0, 11, 51, 0.7), rgba(0, 11, 51, 0.7)), url(../assets/hero-background-image.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
 }
 
@@ -310,10 +311,16 @@ p {
   @media screen and (max-width: 600px) {
     .logo {
         width: 160px;
-        
     }
+
+    .hero {
+        background-position: 55% 40%;
+        background-size: 350%;
+    }
+
     .hero-content h1 {
-        font-size: 64px;
+        font-size: 42px;
+        font-weight: 500;
     }
 
     #sectionOne {
